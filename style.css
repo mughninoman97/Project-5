@@ -1,0 +1,128 @@
+.navbar {
+  background-color: black;
+  color: white;
+  height: 80px;
+}
+.list {
+  text-decoration: none;
+  margin-left: 210px;
+  position: relative;
+  bottom: 65px;
+  font-family: "Poppins";
+  margin-top: 40px;
+}
+li:first-child {
+  /* border: 2px solid white; */
+  list-style: square;
+  color: white;
+}
+.list-item {
+  display: inline-flex;
+  flex-direction: row;
+  padding-left: 50px;
+}
+.navbar img {
+  margin-top: 6px;
+    margin-left: 20px;
+    height: 40px;
+    position: relative;
+    top: 13px;
+}
+.button-small {
+  float: right;
+  margin-right: 30px;
+  margin-top: -114px;
+  font-size: 18px;
+  border-radius: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ba0cc5;
+  color: white;
+  border: none;
+}
+/* .hero {
+  background: url(./assets/bg.png) no-repeat center center/cover;
+} */
+body {
+  margin: 0;
+  padding: 0;
+  /* border: 4px solid black; */
+  background: url(./assets/bg.png) no-repeat;
+
+  background-size: 1390px 715px;
+  /* background-position-y: ; */
+  /* width: 300px;
+  height: 300px; */
+}
+img[source="./assets/bg.png"] {
+  height: 100vh;
+  width: 90vw;
+}
+.hero-heading {
+  font-size: 60px;
+  height: 172px;
+  margin-left: 27%;
+  margin-right: -30%;
+  /* border: 2px solid white; */
+  width: 670px;
+  margin-top: 100px;
+  font-family: "Poppins";
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+.hero-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: white;
+  font-size: 23px;
+  margin-top: -40px;
+  margin-right: -35px;
+}
+.button-large {
+  /* display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-left: 551px;
+  font-size: 22px;
+  background-color: #ba0cc5;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.line{
+  border: 0.25px solid white;
+    width: 0px;
+    position: absolute;
+    left: 240px;
+    height: 48px;
+    top: 12px;
+  }
+
+  .button-small:hover{
+    border: 2px solid #ba0cc5 ;
+    background-color: black;
+    cursor: pointer;
+
+  }
+  .button-large:hover{
+    border: 2px solid #ba0cc5 ;
+    background-color: black;
+    cursor: pointer;
+  }
+  .list-item:hover{
+    color: #ba0cc5;
+    cursor: pointer;
+
+  }
