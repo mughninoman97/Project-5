@@ -3,7 +3,7 @@
 This is my fifth project of Web Development. In this project I have learnt about background image peoperties of CSS like positioning background images, blur background, hovering effects etc. 
 
 FULL WEBPAGE:
-![Project2](sc/f.png "proj2 image")
+![Project2](sc/f.PNG "proj2 image")
 
 NAVBAR:
 ![Project2](sc/nav.PNG "proj2 image")
