@@ -2,6 +2,8 @@
 
 This is my fifth project of Web Development. In this project I have learnt about background image peoperties of CSS like positioning background images, blur background, hovering effects etc. 
 
+> [Click here for the live project](https://project-5-by-noman.netlify.app/)
+
 FULL WEBPAGE:
 ![Project2](sc/f.PNG "proj2 image")
 
